@@ -81,7 +81,6 @@ html {
 }
 .about-us-wrapper {
   width: 65%;
-  max-width: 900px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -459,6 +458,7 @@ img {
   }
   .about-us-text {
     width: 50%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -466,6 +466,7 @@ img {
 
   .about-us-img {
     width: 50%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: stretch;
