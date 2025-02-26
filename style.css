@@ -466,7 +466,7 @@ img {
 
   .about-us-img {
     width: 50%;
-    height: 100%;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: stretch;
@@ -582,6 +582,7 @@ img {
     flex-direction: row;
     align-items: stretch;
     padding: 20px 0;
+    gap: 10px;
   }
   .about-us-text,
   .about-us-img {
@@ -590,7 +591,7 @@ img {
     max-width: none;
   }
   .about-us-img {
-    height: 100%;
+    height: auto;
     display: flex;
     align-items: stretch;
   }
