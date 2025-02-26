@@ -561,7 +561,7 @@ img {
   }
 }
 
-/* FOOTER*/
+/* CONTACT*/
 @media (min-width: 992px) {
   .contact {
     min-height: 15vh;
@@ -620,6 +620,9 @@ img {
   }
   .reviews-wrapper {
     width: 80%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
   }
 
   .review-bertie,
