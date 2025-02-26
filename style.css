@@ -629,6 +629,7 @@ img {
   .review-bertie,
   .review-frank {
     width: 100%;
+    gap: 10px;
   }
 }
 
