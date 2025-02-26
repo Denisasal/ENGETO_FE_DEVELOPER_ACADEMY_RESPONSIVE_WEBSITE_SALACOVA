@@ -574,20 +574,23 @@ img {
 
   /* ABOUT US */
   .about-us {
-    max-width: 90%;
+    max-width: 100%;
+    max-height: 100%;
     text-align: center;
   }
   .about-us-wrapper {
     flex-direction: row;
     align-items: stretch;
+    padding: 20px 0;
   }
   .about-us-text,
   .about-us-img {
     width: 50%;
+    height: 100%;
     max-width: none;
   }
   .about-us-img {
-    height: auto;
+    height: 100%;
     display: flex;
     align-items: stretch;
   }
