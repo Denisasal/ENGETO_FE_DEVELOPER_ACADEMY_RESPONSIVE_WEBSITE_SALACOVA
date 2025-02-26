@@ -615,13 +615,14 @@ img {
   /* REVIEWS */
 
   .reviews {
-    max-width: 90%;
+    max-width: 100%;
     text-align: center;
   }
   .reviews-wrapper {
     width: 80%;
     display: flex;
     justify-content: center;
+    align-items: center;
     padding-bottom: 20px;
   }
 
@@ -724,6 +725,7 @@ img {
   .reviews-people {
     flex-wrap: wrap;
     height: auto;
+    gap: 10px;
   }
 
   /* PHOTOS */
