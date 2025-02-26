@@ -642,6 +642,7 @@ img {
     margin: 0 auto;
     display: flex;
     justify-content: center;
+    gap: 10px;
   }
   .about-us-text,
   .about-us-img {
