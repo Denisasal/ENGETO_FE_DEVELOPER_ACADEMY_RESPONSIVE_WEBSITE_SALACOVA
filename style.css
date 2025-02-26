@@ -73,7 +73,7 @@ html {
   background-color: #fff;
   min-height: auto;
   width: 100%;
-  max-width: 90%;
+  max-width: 100%;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -82,12 +82,10 @@ html {
   position: relative;
 }
 .about-us-wrapper {
-  width: 80%;
   max-width: 900px;
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 30px;
+  justify-content: space-between;
 }
 .about-us-text {
   width: 50%;
@@ -457,7 +455,6 @@ img {
     width: 65%;
     height: auto;
     margin: 0 auto;
-    gap: 40px;
     display: flex;
     align-items: stretch;
   }
