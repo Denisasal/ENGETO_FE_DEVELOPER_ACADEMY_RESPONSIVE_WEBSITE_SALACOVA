@@ -1,4 +1,5 @@
-// SET UP THE ICONE
+// MAIN PAGE
+// SET UP THE "GO UP" ICONE
 document.addEventListener("DOMContentLoaded", () => {
   const icon = document.querySelector(".icon") as HTMLElement | null;
 

@@ -1,7 +1,9 @@
+// MOVIE SECTION
+// PREPARE DATA FOR API
 const movieList = document.getElementById("movie-list");
 const movieFilter = document.getElementById("movie-filter");
 
-//fetch data from API
+//Fetch data from API
 const fetchData = async (query) => {
   try {
     const response = await fetch(
