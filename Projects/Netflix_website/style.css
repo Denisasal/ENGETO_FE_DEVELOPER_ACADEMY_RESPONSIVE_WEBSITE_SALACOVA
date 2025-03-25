@@ -339,7 +339,7 @@ html {
 .movie-item img {
   width: 150px;
   transition: transform 0.3s ease-in-out;
-  transform: rotate(-10deg);
+  transform: rotate(+10deg);
 }
 
 .movie-item img:hover {
