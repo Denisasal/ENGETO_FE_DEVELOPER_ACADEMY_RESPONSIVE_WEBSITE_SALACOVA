@@ -309,11 +309,12 @@ html {
   padding: 10px;
   width: 150px;
 }
-.move-show {
+.movie-show {
   width: auto;
   height: auto;
   display: flex;
   justify-content: center;
+  padding-bottom: 20px;
 }
 .movie-wrapper {
   width: 80%;
